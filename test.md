@@ -6,6 +6,16 @@
 ###Exceptions
 - node modules: snakecase (eg. node_modules)
 - bower components: snakecase (eg. bower_components)
+- LICENSE: all upper case (eg. LICENSE)
+- README: all upper case (eg. README.md)
+
+## File Extensions
+- js: javascript files
+- css: css files
+- html: templates, partials, etc. //no .tpl or .tpl.html
+- md: markdown files
+- json: json files
+- png: images //png is preferred, but other image formats are OK
 
 ## Directory Structure
 - `.gitignore`
@@ -20,21 +30,21 @@
 	- `/challenge-guidelines` //custom guidelines specific for a challenge
 - `/node_modules` //dependent node modules
 - `/client`
-	- `/manage-challenge` //Example of top level page
-  - `bower.json`
-  - `index.html`
+	- `/manage-challenge` //top level directory for a page; 'manage-challenge' is an example
+  - `index.html` //top level page; always index.html
+  - `bower.json` //optional. specify 3rd party client side dependencies
+  - /bower_components //present if using bower.json. standard bower directory for 3rd party dependencies
   - `/css` //page specific css
-  - `/data` //local files
+  - `/data` //local data files. typically json data, but doesn't have to be
   - `/img` //non-agent specific images should be directly under /img
-		- `/desktop`
-		- `/mobile`
-		- `/tablet`
+		- `/desktop` //desktop specific images
+		- `/mobile` //mobile specific images
+		- `/tablet` //tablet specific images
   - `/js`
-		- `app.js` //module definition and primary entry point 
-		- `/controllers`
-		- `/directives`
-		- `/services`
-		- `/templates` //angular template html files
-
+		- `app.js` //module definition and primary app entry point 
+		- `/controllers` //separate file for each angular controller. sub-directories allowed if needed.
+		- `/directives` //separate file for each angular directive. sub-directories allowed if needed.
+		- `/services` //separate file for each angular services. sub-directories allowed if needed.
+		- `/templates`  //separate file for each angular html template. sub-directories allowed if needed. 
 - `/server`
  - // TODO
