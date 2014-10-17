@@ -9,41 +9,41 @@
 
 ## Directory Structure
 - `.gitignore`
-- LICENSE
-- README.md
+- LICENSE`
+- `README.md`
 - `Procfile` //Heroku
 - `web.js` //Heroku
-- package.json `//Node`
+- `package.json` //Node
 - `/docs`
- - /standard-guidelines
+ - `/standard-guidelines`
   - // our standard guidelines (coding, style) across all repos
- - /custom-guidelines  
+ - `/custom-guidelines`
   - // guidelines for a specific repo
- - /challenge-guidelines  
+ - `/challenge-guidelines`
   - // custom guidelines specific for a challenge
-- /node_modules
+- `/node_modules`
  - // dependent node modules
-- /client
+- `/client`
  - //Example page
- - /manage-challenge
-  - bower.json
-  - index.html
-  - /css
+ - `/manage-challenge`
+  - `bower.json`
+  - `index.html`
+  - `/css`
    - //page specific css
-  - /data
+  - `/data`
    - //local files
-  - /img
+  - `/img`
    - //non-agent specific images should be directly under /img
-   - /desktop
-   - /mobile
-   - /tablet
-  - /js
-   - app.js //module definition and primary entry point 
-   - /controllers
-   - /directives
-   - /services
-  - /templates
+   - `/desktop`
+   - `/mobile`
+   - `/tablet`
+  - `/js`
+   - `app.js` //module definition and primary entry point 
+   - `/controllers`
+   - `/directives`
+   - `/services`
+  - `/templates`
    - // angular template html files
 
-- /server
+- `/server`
  - // TODO
