@@ -29,7 +29,7 @@
   - `bower.json`
   - `index.html`
   - `/css`
-   - //page specific css
+    - //page specific css
   - `/data`
    - //local files
   - `/img`
