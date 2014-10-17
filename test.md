@@ -11,10 +11,10 @@
 - `.gitignore`
 - LICENSE
 - README.md
-- Procfile //Heroku
-- web.js //Heroku
+- `Procfile` //Heroku
+- `web.js` //Heroku
 - package.json `//Node`
-- /docs
+- `/docs`
  - /standard-guidelines
   - // our standard guidelines (coding, style) across all repos
  - /custom-guidelines  
