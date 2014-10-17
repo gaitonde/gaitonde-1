@@ -15,10 +15,10 @@
 - `web.js` //Heroku
 - `package.json` //Node
 - `/docs`
- - `/standard-guidelines`
-  - // our standard guidelines (coding, style) across all repos
- - `/custom-guidelines`
-  - // guidelines for a specific repo
+  - `/standard-guidelines`
+    - // our standard guidelines (coding, style) across all repos
+  - `/custom-guidelines`
+    - // guidelines for a specific repo
  - `/challenge-guidelines`
   - // custom guidelines specific for a challenge
 - `/node_modules`
