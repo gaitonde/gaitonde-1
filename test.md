@@ -8,12 +8,12 @@
 - bower components: snakecase (eg. bower_components)
 
 ## Directory Structure
-- .gitignore
+- `.gitignore`
 - LICENSE
 - README.md
 - Procfile //Heroku
 - web.js //Heroku
-- package.json //Node
+- package.json `//Node`
 - /docs
  - /standard-guidelines
   - // our standard guidelines (coding, style) across all repos
