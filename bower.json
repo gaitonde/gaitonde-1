@@ -1,0 +1,20 @@
+{
+  "name": "dg-test-1",
+  "version": "0.0.1",
+  "authors": [
+    "gaitonde <dayal.gaitonde@gmail.com>"
+  ],
+  "description": "this is a test, not of the emergency broadcast system, but of bower",
+  "main": "dg-test-1.js",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
