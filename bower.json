@@ -2,7 +2,7 @@
   "name": "dg-test-1",
   "version": "0.0.1",
   "authors": [
-    "gaitonde <dayal.gaitonde@gmail.com>"
+    "coreservices-team <technology+coreservices-team@appirio.com>"
   ],
   "description": "this is a test, not of the emergency broadcast system, but of bower",
   "main": "dg-test-1.js",
@@ -15,6 +15,7 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "test.md"
   ]
 }
